@@ -60,14 +60,14 @@ typedef struct {
 
 
 // Create a neural network from a model.
-void nn_net_create(nn_net_t *net, nn_model_t const *model);
+bool nn_net_create(nn_net_t *net, nn_model_t const *model);
 // Delete a neural network.
 void nn_net_destroy(nn_net_t *net);
 // Randomize the weights of a neural network.
 void nn_net_randomize(nn_net_t *net);
 
 // Create an inference state from a model.
-void nn_state_create(nn_state_t *state, nn_net_t const *net);
+bool nn_state_create(nn_state_t *state, nn_net_t const *net);
 // Delete an inference state.
 void nn_state_destroy(nn_state_t *state);
 // Perform neural network inference.

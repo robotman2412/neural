@@ -1,7 +1,7 @@
 
 // SPDX-License-Identifier: MIT
 
-#include "network.h"
+#include "neural.h"
 
 
 

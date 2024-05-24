@@ -5,6 +5,7 @@ project(neural C)
 
 add_executable(neural
     src/main.c
+    src/neural.c
 )
 
 target_include_directories(neural PRIVATE include)
